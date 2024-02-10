@@ -1,0 +1,44 @@
+/* .bg-cover{
+    background-image: url('./../../../public/login1.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.login-cart{
+    margin-left: 100%;  
+    width: 400px;
+    height: 70vh; 
+   border-radius: 20px;  
+}
+.all{
+    border: 1px solid #000;
+    margin-left:10% !important;
+    box-shadow: 5px 5px 5px 5px #e3e2e27b;
+    background-color: #fffffc5d !important;
+    border-radius: 20px;
+}
+.w-90{
+    width: 88%;
+}
+.login-h2{  
+    padding-top: 10%;
+    font-weight: bolder;
+}
+h1{
+    font-family: 'Sonsie One';
+    margin-left: 40%;
+    padding-top: 3%;
+}
+.login-container{
+    padding-block: 5%;
+}
+.submit{
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    padding-inline: 8px;
+    /* font-family: 'Rum Raisin'; */
+}
