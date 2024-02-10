@@ -1,5 +1,4 @@
 import React from 'react'
-import './input.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Input({id,name,title,type='text',onChange,errors,onBlur,touched,placeholder,icon,customClass}) {
   {console.log(icon)}

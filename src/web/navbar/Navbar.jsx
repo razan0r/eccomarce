@@ -39,7 +39,7 @@ function Navbar() {
           <Link className="nav-link" to="/"><span className='spanav'>Home</span></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"><span className='spanav'>Categories</span></a>
+        <Link className="nav-link" to={`/categories`}><span className='spanav'>Categories</span></Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to={{

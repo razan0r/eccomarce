@@ -4,7 +4,6 @@
   import { forgetSchema } from '../validation/validation.js';
   import axios from 'axios';
   import {  useNavigate } from 'react-router-dom';
-  import './forgetPassword.css'
   function ForgetPassword() {
     const navigate=useNavigate();
       const initialValues={

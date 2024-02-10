@@ -13,7 +13,7 @@
   box-shadow: 5px 5px 5px 5px #545050e7;
 }
 .hand,.page-item .page-link{
-  color:#ffc107 ;
+  color:#1fa761 ;
 }
 .fs-7{
   font-size: 12px
@@ -63,7 +63,7 @@
   width:200px !important;
   height:200px ;
   margin: auto;
-  border: 1px solid #76390d;
+  border: 1px solid #686868;
 }
 .form-select {
   width: 30% !important;

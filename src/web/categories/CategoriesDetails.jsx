@@ -1,10 +1,8 @@
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import axios from 'axios';
 import React from 'react'
 import { useQuery } from 'react-query';
 import { Link, useParams } from 'react-router-dom'
-import { faStar as notsolid } from "@fortawesome/free-regular-svg-icons";
 function CategoriesDetails() {
      const{id}=useParams();
     

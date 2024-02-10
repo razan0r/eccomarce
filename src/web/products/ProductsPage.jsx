@@ -91,7 +91,7 @@ function ProductsPage() {
           </form>
           <div className="dropdown-center">
             <button
-              className="btn btn-warning dropdown-toggle"
+              className="btn btn-outline-success  dropdown-toggle"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -193,7 +193,7 @@ function ProductsPage() {
         
                   <hr />
 
-                  <Link to={`/product/${product._id}`} className="pe-7">
+                  <Link to={`/product/${product._id}`} className="pe-7 btn btn-outline-success">
                     details
                   </Link>
                   <Link onClick={() => AddToCart(product._id)} className="ps-5">

@@ -5,7 +5,6 @@ import { useFormik } from 'formik'
 import { orderSchema } from '../validation/validation.js';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import './order.css'
 import { Navigate, useNavigate } from 'react-router-dom';
 function Order() {
   const initialValues = {

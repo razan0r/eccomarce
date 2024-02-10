@@ -90,7 +90,7 @@ function Products() {
               <strong>Description:</strong> {data.description}
             </p>
             <button
-              className="btn btn-outline-warning mt-3"
+              className="btn btn-outline-success mt-3"
               onClick={() => AddToCart(data._id)}
             >
               Add to Cart

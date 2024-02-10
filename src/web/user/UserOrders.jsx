@@ -3,7 +3,7 @@ import { OrderContext } from '../context/Order';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleInfo, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { render } from 'react-dom';
+
 
 
 function UserOrders() {

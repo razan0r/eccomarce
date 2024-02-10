@@ -4,7 +4,6 @@ import { useFormik } from 'formik'
 import { registerSchema } from '../validation/validation.js';
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import './register.css'
 function Register() {
     const initialValues={
         userName:'',
